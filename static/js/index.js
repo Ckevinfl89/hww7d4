@@ -31,10 +31,10 @@ function changeBackgroundColor(e){
     console.log('clicked color button');
     console.log(e.target.value);
     if (e.target.value === 'Dark'){
-        document.body.style.backgroundColor = '#623509';
+        document.body.style.backgroundColor = '#000000';
         document.body.classList.add('dark-mode');
     } else {
-        document.body.style.backgroundColor = '#fbcea2';
+        document.body.style.backgroundColor = '#ffffff';
         document.body.classList.remove('dark-mode');
     }
 }
