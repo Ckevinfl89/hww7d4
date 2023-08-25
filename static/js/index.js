@@ -104,7 +104,7 @@ function displayCountries(data) {
         table.append(tr);
 
         const td = document.createElement('td');
-        td.innerHTML = `<a href=${country.website_url} target="_blank">${country.name.common}</a>`;
+        td.innerHTML = `${country.name.common}`;
         tr.append(td);
 
         newDataCell(tr, formatCurrencies(country.currencies));

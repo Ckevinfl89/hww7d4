@@ -2,47 +2,6 @@ body{
     min-height: 100vh;
 }
 
-body.dark-mode {
-    background-color: #121212;
-    color: #9a9696;
-}
-
-body.dark-mode #brewery-table {
-    border-color: #9a9696;
-}
-
-body.dark-mode #brewery-table th,
-body.dark-mode #brewery-table td {
-    border-color: #9a9696;
-    color: #9a9696;
-}
-
-body.dark-mode #brewery-table th {
-    background-color: #333333;
-}
-
-body.dark-mode #brewery-table a {
-    color: #d4bbf3;
-    text-decoration: none;
-}
-
-body.dark-mode #brewery-table a:hover {
-    text-decoration: underline;
-}
-
-body.dark-mode .light-dark-button.btn-border {
-    border-color: #fff;
-    color:#fff;
-}
-
-body.dark-mode .navbar-nav .nav-link {
-    color: #ffffff;
-}
-
-body.dark-mode .navbar-toggler-icon {
-    background-color: #ffffff;
-}
-
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 20vh;
@@ -72,7 +31,7 @@ body.dark-mode .navbar-toggler-icon {
 }
 
 .light-dark-button{
-    color:black ;
+    color:blue ;
     background-clip: none;
     -webkit-background-clip: none;
     -webkit-text-fill-color: black;
